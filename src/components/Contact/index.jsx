@@ -55,7 +55,7 @@ const Contact = () => {
           </p>
 
           <div className="contact-form">
-            <form ref={form} onSubmit={sendEmail}>
+            <form netlify ref={form} onSubmit={sendEmail}>
               <ul>
                 <li className="half">
                   <input type="text" name="name" placeholder="Name" required />

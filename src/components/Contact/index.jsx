@@ -7,8 +7,6 @@ import emailjs from '@emailjs/browser'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 
 const Contact = () => {
-  console.log(import.meta.env.VITE_YOUR_PUBLIC_KEY)
-
   const [letterClass, setLetterClass] = useState('text-animate')
   const form = useRef()
   useEffect(() => {
